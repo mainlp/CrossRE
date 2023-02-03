@@ -1,7 +1,7 @@
 # CrossRE
 This repository contains the data and code for the paper:
 
-Elisa Bassignana and Barbara Plank. 2022. [CrossRE: A Cross-Domain Dataset for Relation Extraction.](https://arxiv.org/abs/2210.09345) In Findings of the Association for Computational Linguistics: EMNLP 2022.
+Elisa Bassignana and Barbara Plank. 2022. [CrossRE: A Cross-Domain Dataset for Relation Extraction.](https://aclanthology.org/2022.findings-emnlp.263.pdf) In Findings of the Association for Computational Linguistics: EMNLP 2022.
 
 ## The CrossRE Dataset
 The data for each split (train, dev, test) of each domain (news, Artificial Intelligence, literature, music, politics, natural science) is in `crossre_data`.
@@ -55,10 +55,16 @@ We release our predictions in the `predictions` folder.
 If you use the data, guidelines, code from CrossRE, please include the following reference:
 ```
 @inproceedings{bassignana-plank-2022-crossre,
-    title = "Cross{RE}: A {C}ross-{D}omain {D}ataset for {R}elation {E}xtraction",
-    author = "Bassignana, Elisa and Plank, Barbara",
+    title = "{C}ross{RE}: A Cross-Domain Dataset for Relation Extraction",
+    author = "Bassignana, Elisa  and
+      Plank, Barbara",
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
     year = "2022",
-    publisher = "Association for Computational Linguistics"
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.263",
+    pages = "3592--3604",
+    abstract = "Relation Extraction (RE) has attracted increasing attention, but current RE evaluation is limited to in-domain evaluation setups. Little is known on how well a RE system fares in challenging, but realistic out-of-distribution evaluation setups. To address this gap, we propose CrossRE, a new, freely-available cross-domain benchmark for RE, which comprises six distinct text domains and includes multi-label annotations. An additional innovation is that we release meta-data collected during annotation, to include explanations and flags of difficult instances. We provide an empirical evaluation with a state-of-the-art model for relation classification. As the meta-data enables us to shed new light on the state-of-the-art model, we provide a comprehensive analysis on the impact of difficult cases and find correlations between model and human annotations. Overall, our empirical investigation highlights the difficulty of cross-domain RE. We release our dataset, to spur more research in this direction.",
 }
 ```
