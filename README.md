@@ -71,15 +71,21 @@ If you use the data, guidelines, code from CrossRE or Multi-CrossRE, please incl
 }
 ```
 ```
-@inproceedings{bassignana-etal-2023-multi-crossre,
-    title = "{M}ulti-{C}ross{RE} {A} {M}ulti-{L}ingual {M}ulti-{D}omain {D}ataset for {R}elation {E}xtraction",
-    author = "Bassignana, Elisa  and Ginter, Filip and Pyysalo, Sampo and van der Goot, Rob and Plank, Barbara",
-    booktitle = "Proceedings of the 24rd Nordic Conference on Computational Linguistics (NoDaLiDa)",
+@inproceedings{bassignana-etal-2023-multi,
+    title = "Multi-{C}ross{RE} A Multi-Lingual Multi-Domain Dataset for Relation Extraction",
+    author = "Bassignana, Elisa  and
+      Ginter, Filip  and
+      Pyysalo, Sampo  and
+      Goot, Rob  and
+      Plank, Barbara",
+    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
     month = may,
     year = "2023",
-    address = "Tórshavn, Faroe Islands",
-    publisher = "Association for Computational Linguistics",
-    url = "https://openreview.net/pdf?id=G8pAo0rvbh",
-    abstract = "Most research in Relation Extraction (RE) involves the English language, mainly due to the lack of multi-lingual resources. We propose Multi-CrossRE, the broadest multi-lingual dataset for RE, including 26 languages in addition to English, and covering six text domains. Multi-CrossRE is a machine translated version of CrossRE (Bassignana and Plank, 2022), with a sub-portion including more than 200 sentences in seven diverse languages checked by native speakers. We run a baseline model over the 26 new datasets and--as sanity check--over the 26 back-translations to English. Results on the back-translated data are consistent with the ones on the original English CrossRE, indicating high quality of the translation and the resulting dataset.",
+    address = "T{\'o}rshavn, Faroe Islands",
+    publisher = "University of Tartu Library",
+    url = "https://aclanthology.org/2023.nodalida-1.9",
+    pages = "80--85",
+    abstract = "Most research in Relation Extraction (RE) involves the English language, mainly due to the lack of multi-lingual resources. We propose Multi-CrossRE, the broadest multi-lingual dataset for RE, including 26 languages in addition to English, and covering six text domains. Multi-CrossRE is a machine translated version of CrossRE (Bassignana and Plank, 2022), with a sub-portion including more than 200 sentences in seven diverse languages checked by native speakers. We run a baseline model over the 26 new datasets and{--}as sanity check{--}over the 26 back-translations to English. Results on the back-translated data are consistent with the ones on the original English CrossRE, indicating high quality of the translation and the resulting dataset.",
 }
+
 ```
