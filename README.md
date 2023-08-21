@@ -3,7 +3,7 @@ This repository contains the data and code for the papers:
 
 Elisa Bassignana and Barbara Plank. 2022. [CrossRE: A Cross-Domain Dataset for Relation Extraction.](https://aclanthology.org/2022.findings-emnlp.263.pdf) In Findings of the Association for Computational Linguistics: EMNLP 2022.
 
-Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. 2023. [Multi-CrossRE: A Multi-Lingual Multi-Domain Dataset for Relation Extraction.](https://openreview.net/pdf?id=G8pAo0rvbh) To appear in Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa 2023).
+Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. 2023. [Multi-CrossRE: A Multi-Lingual Multi-Domain Dataset for Relation Extraction.](https://openreview.net/pdf?id=G8pAo0rvbh) In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa 2023).
 
 ## The CrossRE Dataset
 The data for each split (train, dev, test) of each domain (news, Artificial Intelligence, literature, music, politics, natural science) is in `crossre_data`.
