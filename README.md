@@ -1,9 +1,11 @@
 # CrossRE
 This repository contains the data and code for the papers:
 
-Elisa Bassignana and Barbara Plank. 2022. [CrossRE: A Cross-Domain Dataset for Relation Extraction.](https://aclanthology.org/2022.findings-emnlp.263.pdf) In Findings of the Association for Computational Linguistics: EMNLP 2022.
+`crossre_data` Elisa Bassignana and Barbara Plank. 2022. [CrossRE: A Cross-Domain Dataset for Relation Extraction.](https://aclanthology.org/2022.findings-emnlp.263.pdf) In Findings of the Association for Computational Linguistics: EMNLP 2022.
 
-Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. 2023. [Multi-CrossRE: A Multi-Lingual Multi-Domain Dataset for Relation Extraction.](https://openreview.net/pdf?id=G8pAo0rvbh) In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa 2023).
+`multi-crossre_data` Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. 2023. [Multi-CrossRE: A Multi-Lingual Multi-Domain Dataset for Relation Extraction.](https://openreview.net/pdf?id=G8pAo0rvbh) In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa 2023).
+
+`crossre_extension` Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. 2024. How to Encode Domain Information in Relation Classification. To appear at at LREC-COLING 2024.
 
 ## The CrossRE Dataset
 The data for each split (train, dev, test) of each domain (news, Artificial Intelligence, literature, music, politics, natural science) is in `crossre_data`.
@@ -54,7 +56,7 @@ Remember to set `EXP_PATH` and the `DOMAIN` of interest.
 We release our predictions in the `predictions` folder.
 
 ## Cite
-If you use the data, guidelines, code from CrossRE or Multi-CrossRE, please include the following reference:
+If you use the data, guidelines, code from CrossRE, Multi-CrossRE, CrossRE 2.0, please include the following references:
 ```
 @inproceedings{bassignana-plank-2022-crossre,
     title = "{C}ross{RE}: A Cross-Domain Dataset for Relation Extraction",
@@ -87,5 +89,5 @@ If you use the data, guidelines, code from CrossRE or Multi-CrossRE, please incl
     pages = "80--85",
     abstract = "Most research in Relation Extraction (RE) involves the English language, mainly due to the lack of multi-lingual resources. We propose Multi-CrossRE, the broadest multi-lingual dataset for RE, including 26 languages in addition to English, and covering six text domains. Multi-CrossRE is a machine translated version of CrossRE (Bassignana and Plank, 2022), with a sub-portion including more than 200 sentences in seven diverse languages checked by native speakers. We run a baseline model over the 26 new datasets and{--}as sanity check{--}over the 26 back-translations to English. Results on the back-translated data are consistent with the ones on the original English CrossRE, indicating high quality of the translation and the resulting dataset.",
 }
-
 ```
+CrossRE 2.0: to appear
