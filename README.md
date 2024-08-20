@@ -5,7 +5,7 @@ This repository contains the data and code for the papers:
 
 `multi-crossre_data` Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. 2023. [Multi-CrossRE: A Multi-Lingual Multi-Domain Dataset for Relation Extraction.](https://openreview.net/pdf?id=G8pAo0rvbh) In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa 2023).
 
-`crossre_extension` Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. 2024. How to Encode Domain Information in Relation Classification. To appear at at LREC-COLING 2024.
+`crossre_extension` Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. 2024. [How to Encode Domain Information in Relation Classification.](https://aclanthology.org/2024.lrec-main.728.pdf) In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024).
 
 ## The CrossRE Dataset
 The data for each split (train, dev, test) of each domain (news, Artificial Intelligence, literature, music, politics, natural science) is in `crossre_data`.
@@ -90,4 +90,29 @@ If you use the data, guidelines, code from CrossRE, Multi-CrossRE, CrossRE 2.0, 
     abstract = "Most research in Relation Extraction (RE) involves the English language, mainly due to the lack of multi-lingual resources. We propose Multi-CrossRE, the broadest multi-lingual dataset for RE, including 26 languages in addition to English, and covering six text domains. Multi-CrossRE is a machine translated version of CrossRE (Bassignana and Plank, 2022), with a sub-portion including more than 200 sentences in seven diverse languages checked by native speakers. We run a baseline model over the 26 new datasets and{--}as sanity check{--}over the 26 back-translations to English. Results on the back-translated data are consistent with the ones on the original English CrossRE, indicating high quality of the translation and the resulting dataset.",
 }
 ```
-CrossRE 2.0: to appear
+```
+@inproceedings{bassignana-etal-2024-encode,
+    title = "How to Encode Domain Information in Relation Classification",
+    author = "Bassignana, Elisa  and
+      Gascou, Viggo Unmack  and
+      Laustsen, Frida N{\o}hr  and
+      Kristensen, Gustav  and
+      Petersen, Marie Haahr  and
+      van der Goot, Rob  and
+      Plank, Barbara",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.728",
+    pages = "8301--8306",
+    abstract = "Current language models require a lot of training data to obtain high performance. For Relation Classification (RC), many datasets are domain-specific, so combining datasets to obtain better performance is non-trivial. We explore a multi-domain training setup for RC, and attempt to improve performance by encoding domain information. Our proposed models improve {\textgreater} 2 Macro-F1 against the baseline setup, and our analysis reveals that not all the labels benefit the same: The classes which occupy a similar space across domains (i.e., their interpretation is close across them, for example {``}physical{''}) benefit the least, while domain-dependent relations (e.g., {``}part-of{''}) improve the most when encoding domain information.",
+}
+```
